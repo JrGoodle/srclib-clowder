@@ -1,0 +1,52 @@
+defaults:
+    ref: refs/heads/master
+    remote: origin
+    source: github
+
+sources:
+    - name: github-ssh
+      url: ssh://git@github.com
+    - name: github
+      url: https://github.com
+
+groups:
+    - name: srclib
+      projects:
+        - name: sourcegraph/srclib
+          path: srclib
+    - name: toolchains
+      projects:
+        - name: sourcegraph/srclib-c
+          path: toolchains/srclib-c
+        - name: sourcegraph/srclib-cpp
+          path: toolchains/srclib-cpp
+        - name: sourcegraph/srclib-csharp
+          path: toolchains/srclib-csharp
+        - name: sourcegraph/srclib-go
+          path: toolchains/srclib-go
+        - name: sourcegraph/srclib-haskell
+          path: toolchains/srclib-haskell
+        - name: sourcegraph/srclib-java
+          path: toolchains/srclib-java
+        - name: sourcegraph/srclib-javascript
+          path: toolchains/srclib-javascript
+        - name: sourcegraph/srclib-php
+          path: toolchains/srclib-php
+        - name: sourcegraph/srclib-python
+          path: toolchains/srclib-python
+        - name: sourcegraph/srclib-ruby
+          path: toolchains/srclib-ruby
+        - name: sourcegraph/srclib-scala
+          path: toolchains/srclib-scala
+    - name: projects
+      projects:
+        - name: sourcegraph/srcco
+          path: srcco
+    - name: samples
+      projects:
+        - name: sourcegraph/srclib-sample
+          path: samples/srclib-sample
+    - name: talks
+      projects:
+        - name: sourcegraph/talks
+          path: sourcegraph-talks
