@@ -8,71 +8,86 @@ groups:
   - name: sourcegraph/srclib
     path: srclib
     ref: 99345563b945f1ddbf42e023f6f7089ddc844a91
-    remote: github
+    remote: origin
+    source: github
 - name: toolchains
   projects:
   - name: sourcegraph/srclib-c
     path: toolchains/srclib-c
     ref: 7dc4d0e99d54cd36b651bb59d277b973be88ae9b
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-cpp
     path: toolchains/srclib-cpp
     ref: fb5b5a36112360cdf7ed68fd3b84f2a49aa7ab0e
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-csharp
     path: toolchains/srclib-csharp
     ref: 1f87f998e0f8da092bbd11e878a3a81632bd4c28
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-go
     path: toolchains/srclib-go
     ref: 80265e6ee53755cb9188585ce6b0950c01e42b69
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-haskell
     path: toolchains/srclib-haskell
     ref: ad717d5b3852dd63f091b5f9082dfc0f3756e60c
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-java
     path: toolchains/srclib-java
     ref: 19da6d284aebcfbd16f20bfeb38517c154e69bf7
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-javascript
     path: toolchains/srclib-javascript
     ref: de2c161eb8cd1d58b2895ff1a744a5d0a9202223
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-php
     path: toolchains/srclib-php
     ref: 3994c4983d6637489415c92c93ee170e3143c306
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-python
     path: toolchains/srclib-python
     ref: 974f1fe969ede48c481a02e09863a4e37ea1bb8b
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-ruby
     path: toolchains/srclib-ruby
     ref: 0ef1544327ea59b51fea157e30f7c1a8cacdd09c
-    remote: github
+    remote: origin
+    source: github
   - name: sourcegraph/srclib-scala
     path: toolchains/srclib-scala
     ref: 71f2344408309cbc19b438f562e74932ad38c5e8
-    remote: github
+    remote: origin
+    source: github
 - name: projects
   projects:
   - name: sourcegraph/srcco
     path: srcco
     ref: c864859465c7950474bbe367559bcb41e7f75e87
-    remote: github
+    remote: origin
+    source: github
 - name: samples
   projects:
   - name: sourcegraph/srclib-sample
     path: samples/srclib-sample
     ref: 39c48869a6a7ae88f68b8c61e57330ef9fba4c0c
-    remote: github
+    remote: origin
+    source: github
 - name: talks
   projects:
   - name: sourcegraph/talks
     path: sourcegraph-talks
     ref: 1b8ca2c6837c2340693e8807802c3d2df7e478c7
-    remote: github
+    remote: origin
+    source: github
 sources:
 - name: github-ssh
   url: ssh://git@github.com
