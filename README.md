@@ -1,2 +1,5 @@
 # srclib-clowder
-clowder.yaml for srclib projects
+
+Contains `clowder.yaml` for srclib projects
+
+See [the clowder project](https://github.com/JrGoodle/clowder) for more information
